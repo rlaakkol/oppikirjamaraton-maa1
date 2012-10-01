@@ -2,7 +2,9 @@
 %\definecolor{cornflowerBlue}{RGB}{154,206,235}
 \definecolor{thulianPink}{RGB}{222,111,161}
 \usepackage{mdframed}
-\newcommand{\laatikko}[1]{\begin{mdframed}[backgroundcolor=thulianPink] #1 \end{mdframed}}%
+\newcommand{\laatikko}[1]{\begin{minipage}{\textwidth}
+	\begin{mdframed}[backgroundcolor=thulianPink] #1 \end{mdframed}
+	\end{minipage}}%
 
 %\definecolor{olivine}{RGB}{154,185,115}
 %\definecolor{battleshipGray}{RGB}{132,132,130}
